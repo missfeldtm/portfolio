@@ -2,7 +2,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: auto;
-  background: url("black.jpg");
+  font-weight: 400;
+  background: url("media/black.jpg");
   background-size: cover;
   background-repeat: none;
   color: #f3f3f3;
@@ -25,7 +26,11 @@ nav .basic-nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 15px;
+}
+
+nav .media-nav {
+  margin-right: 2rem;
 }
 
 nav .media-nav a {
@@ -42,13 +47,18 @@ nav a:hover {
   color: #ff2562;
 }
 
+nav .current {
+  background: #ff2562;
+}
+
 h1, h2 {
   margin: 0;
 }
 
 main {
   margin-left: 20px;
-  padding-top: 40vh;
+  padding: 4rem;
+  padding-top: 6rem;
 }
 
 main h1 {
@@ -63,5 +73,35 @@ main h1 span {
 main h2 {
   font-size: 1.5em;
   font-weight: 400;
+}
+
+main h3 {
+  text-transform: uppercase;
+  color: #ff2562;
+  font-weight: 400;
+}
+
+main img {
+  float: right;
+  width: 250px;
+  padding: 3rem;
+}
+
+main p {
+  line-height: 1.5em;
+}
+
+main .gallery img {
+  margin: 20px;
+  padding: 0;
+  width: 20%;
+  display: block;
+  float: left;
+}
+
+main .clearfix {
+  content: '';
+  display: block;
+  clear: both;
 }
 /*# sourceMappingURL=main.css.map */
